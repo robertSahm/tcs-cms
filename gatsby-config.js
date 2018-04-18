@@ -1,4 +1,4 @@
-const cssNext = require('postcss-cssnext')
+const cssNext = require('postcss-cssnext');
 
 module.exports = {
   siteMetadata: {
@@ -10,7 +10,6 @@ module.exports = {
       resolve: `gatsby-plugin-postcss-sass`,
       options: {
         postCssPlugins: [cssNext()],
-        precision: 8, // SASS default: 5
       },
     },
     {
