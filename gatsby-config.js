@@ -1,15 +1,21 @@
-const cssNext = require('postcss-cssnext');
+const cssNext = require('postcss-cssnext')
+const cssNest = require('postcss-nesting')
+const lost = require('lost')
 
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby + Netlify CMS Starter',
+    title: 'Terrapin Care Station',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-postcss-sass`,
       options: {
-        postCssPlugins: [cssNext()],
+        postCssPlugins: [
+          cssNext(),
+          cssNest(),
+          lost(),
+        ],
       },
     },
     {
