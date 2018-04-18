@@ -1,10 +1,18 @@
+const cssNext = require('postcss-cssnext')
+
 module.exports = {
   siteMetadata: {
     title: 'Gatsby + Netlify CMS Starter',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
+    {
+      resolve: `gatsby-plugin-postcss-sass`,
+      options: {
+        postCssPlugins: [cssNext()],
+        precision: 8, // SASS default: 5
+      },
+    },
     {
       resolve: 'gatsby-source-filesystem',
       options: {

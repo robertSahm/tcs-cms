@@ -1,15 +1,16 @@
 {
-  "name": "gatsby-starter-netlify-cms",
-  "description": "Example Gatsby, and Netlify CMS project",
+  "name": "TCS-Web",
+  "description": "Terrapin Care Station Online",
   "version": "1.1.1",
-  "author": "Austin Green",
+  "author": "Robert Sahm",
   "dependencies": {
     "bulma": "^0.6.0",
     "gatsby": "^1.9.213",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-netlify-cms": "^1.0.9",
+    "gatsby-plugin-postcss-sass": "^1.0.19",
     "gatsby-plugin-react-helmet": "^2.0.5",
-    "gatsby-plugin-sass": "^1.0.17",
+    "gatsby-plugin-sass": "^1.0.25",
     "gatsby-plugin-sharp": "^1.6.34",
     "gatsby-remark-images": "^1.5.50",
     "gatsby-source-filesystem": "^1.5.23",
@@ -17,6 +18,7 @@
     "gatsby-transformer-sharp": "^1.6.21",
     "lodash": "^4.17.5",
     "lodash-webpack-plugin": "^0.11.4",
+    "lost": "^8.2.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-helmet": "^5.2.0"
