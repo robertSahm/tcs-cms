@@ -1,13 +1,39 @@
+// Colors
+$white:     #ffffff
+$lightGrey: #9B9B9B
+$darkGrey: #4A4A4A
+$black: #000000
+$red: rgba(255, 51, 43, 1.000)
+$orange: rgba(255, 138, 0, 1.000)
+$yellow: rgba(255, 197, 4, 1.000)
+$green: rgba(67, 212, 89, 1.000)
+$teal: rgba(79, 193, 249, 1.000)
+$blue: rgba(0, 111, 255, 1.000)
+$purple: rgba(78, 76, 208, 1.000)
+$pink: rgba(255, 39, 75, 1.000)
+
+// Apply to everything
 body
   margin: 0
   padding: 0
-
 *
   box-sizing: border-box
-
 img 
   display: block
+a
+  color: $lightGrey
+  text-decoration: none
+  &:hover 
+    color: $darkGrey
 
 
 
 
+// $color: red
+
+// =my-border($color)
+//   border: 1px solid $color
+
+// body
+//   background: $color
+//   +my-border(green)

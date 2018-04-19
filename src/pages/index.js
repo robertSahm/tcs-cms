@@ -9,8 +9,6 @@ export default class IndexPage extends React.Component {
 
     return (
       <section>
-        
-          
        
       </section>
     )
