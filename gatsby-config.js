@@ -12,12 +12,19 @@ module.exports = {
       resolve: `gatsby-plugin-postcss-sass`,
       options: {
         postCssPlugins: [
-          cssNext(),
+          cssNext(), 
           cssNest(),
           lost(),
         ],
       },
     },
+    // {
+    //   resolve: `gatsby-source-shopify`,
+    //   options: {
+    //     name: `Terrapin Store`,
+    //     token: `your_access_token`,
+    //   },
+    // },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
