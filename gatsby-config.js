@@ -12,7 +12,7 @@ module.exports = {
       resolve: `gatsby-plugin-postcss-sass`,
       options: {
         postCssPlugins: [
-          cssNext(), 
+          cssNext(),
           cssNest(),
           lost(),
         ],
